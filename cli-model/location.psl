@@ -1,0 +1,7 @@
+
+1000:  ValueOf(S, V1) & V1!=V2-> !ValueOf(S, V2) ^2
+
+1000:  ValueOf(S1, V) & S1!=S2 -> !ValueOf(S2, V) ^2
+
+10:  ValueOf(S1, V1) & SubOf(S1, S2) & IsIn(V1, V2) & S1!=S2 & V1!=V2 -> ValueOf(S2, V2) ^2
+

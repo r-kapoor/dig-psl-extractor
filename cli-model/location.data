@@ -1,0 +1,11 @@
+predicates:
+  ValueOf/2: open
+  SubOf/2: closed
+  IsIn/2: closed
+
+observations:
+  SubOf : subof_obs.txt
+  IsIn : isin_obs.txt
+
+targets:
+  ValueOf : valueof_targets.txt
